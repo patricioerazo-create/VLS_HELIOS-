@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <scene id="Ruil_MLS" name="Ruil MLS">
+        <!-- DEM 2m | vox 3.5cm PAD 1.0 | LAS aligned DEM@tree base XY -->
+        <part>
+            <filter type="geotiffloader">
+                <param type="string" key="filepath" value="data/sceneparts/tif/DEM_Ruiles_2m.tif"/>
+                <param type="string" key="matfile" value="data/sceneparts/basic/groundplane/groundplane.mtl"/>
+                <param type="string" key="matname" value="None"/>
+            </filter>
+        </part>
+        <part>
+            <filter type="detailedvoxels">
+                <param type="string" key="efilepath" value="data/sceneparts/vox/30[0-9][0-9].vox"/>
+            </filter>
+        </part>
+    </scene>
+</document>

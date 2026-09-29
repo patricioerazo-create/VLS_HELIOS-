@@ -1,0 +1,49 @@
+# Ignore the setuptools_scm output
+python/pyhelios/_version.py
+
+# Ignore output, build and library dirs
+build
+pytest-output
+cmake-build-*
+bin/*
+lib/*
+output/*
+pyhelios-output/*
+pyhelios-data/*
+gdaldll/*
+*.so
+*.dll
+*.scene
+
+# Ignore IDE stuff
+.idea
+tags
+mswin/
+valgrind.xml
+.vscode
+
+# Ignore vim stuff
+*.swp
+
+# Ignore general stuff
+*.temp
+*.lock
+*.exe
+libhelios.so
+pyhelios.so
+helios
+
+# Output log
+*.log
+
+# wiki documentation
+*/site
+
+# ignore pytest stuff
+# Byte-compiled / optimized / DLL files
+*__pycache__/
+*.py[cod]
+.pytest_cache
+.coverage
+coverage.xml
+coverage.info

@@ -1,0 +1,6 @@
+HELIOS++/output/
+HELIOS++/**/__pycache__/
+HELIOS++/**/.pytest_cache/
+HELIOS++/build/
+HELIOS++/cmake-build-*/
+*.log

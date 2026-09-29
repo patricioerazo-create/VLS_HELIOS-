@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<document>
+
+	<scannerSettings id="x120go_v3" active="true"
+                     pulseFreq_hz="18750"
+                     headRotatePerSec_deg="3600"
+                     headRotateStart_deg="0.0"
+                     headRotateStop_deg="360"
+                     trajectoryTimeInterval_s="0.05"/>
+
+    <survey name="MLS" platform="data/platforms.xml#x120go_handheld"
+            scanner="data/scanners_tls.xml#vlp16"
+            scene="data/scenes/Ruil_MLS.xml#Ruil_MLS">
+
+
+        <leg>
+            <platformSettings x="665727.2055" y="5445475.7791" z="1.3" onGround="true" movePerSec_m="0.5"/>
+            <scannerSettings template="x120go_v3"/>
+        </leg>
+        <leg>
+            <platformSettings x="665741.8481" y="5445458.9695" z="1.3" onGround="true" movePerSec_m="0.5"/>
+            <scannerSettings template="x120go_v3"/>
+        </leg>
+        <leg>
+            <platformSettings x="665755.5512" y="5445443.1120" z="1.3" onGround="true" movePerSec_m="0.5"/>
+            <scannerSettings template="x120go_v3"/>
+        </leg>
+        <leg>
+            <platformSettings x="665753.5941" y="5445441.3487" z="1.3" onGround="true" movePerSec_m="0.5"/>
+            <scannerSettings template="x120go_v3"/>
+        </leg>
+        <leg>
+            <platformSettings x="665725.0633" y="5445474.5173" z="1.3" onGround="true" movePerSec_m="0.5"/>
+            <scannerSettings template="x120go_v3"/>
+        </leg>
+        <leg>
+            <platformSettings x="665723.1257" y="5445472.9796" z="1.3" onGround="true" movePerSec_m="0.5"/>
+            <scannerSettings template="x120go_v3"/>
+        </leg>
+        <leg>
+            <platformSettings x="665751.5239" y="5445439.5829" z="1.3" onGround="true" movePerSec_m="0.5"/>
+            <scannerSettings template="x120go_v3"/>
+        </leg>
+        <leg>
+            <platformSettings x="665749.4046" y="5445437.9247" z="1.3" onGround="true" movePerSec_m="0.5"/>
+            <scannerSettings template="x120go_v3"/>
+        </leg>
+        <leg>
+            <platformSettings x="665721.3799" y="5445471.2398" z="1.3" onGround="true" movePerSec_m="0.5"/>
+            <scannerSettings template="x120go_v3"/>
+        </leg>
+        <leg>
+            <platformSettings x="665719.3598" y="5445469.6512" z="1.3" onGround="true" movePerSec_m="0.5"/>
+            <scannerSettings template="x120go_v3"/>
+        </leg>
+        <leg>
+            <platformSettings x="665747.6930" y="5445436.4422" z="1.3" onGround="true" movePerSec_m="0.5"/>
+            <scannerSettings template="x120go_v3"/>
+        </leg>
+        <leg>
+            <platformSettings x="665745.8313" y="5445434.7698" z="1.3" onGround="true" movePerSec_m="0.5"/>
+            <scannerSettings template="x120go_v3"/>
+        </leg>
+        <leg>
+            <platformSettings x="665717.8237" y="5445467.9380" z="1.3" onGround="true" movePerSec_m="0.5"/>
+            <scannerSettings template="x120go_v3"/>
+        </leg>
+    </survey>
+</document>
